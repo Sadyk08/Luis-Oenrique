@@ -139,10 +139,11 @@ float: right;
   text-transform: uppercase;
   margin-top: 140px;
   margin-bottom: 125px;
+  img{
+    margin-top: 63px;
+  }
 }
-.my-skills img{
-margin-top: 63px;
-}
+
 .my-skills h1:before{
   content: "";
   height: 4px;
@@ -178,4 +179,21 @@ margin-top: 63px;
 }
 .load-more{
   margin-top: 30px;
+}
+.container{
+  .testimonials{
+    padding-top: 80px;
+    padding-bottom: 120px;
+    .test{
+      margin-top: 55px;
+      max-width: 950px;
+      border: solid 1px;
+      .owl-item{
+        width: 100%;
+        padding-top: 77px;
+        padding-bottom: 37px;
+        padding-left: 111px;
+      }
+    }
+  }
 }
