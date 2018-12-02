@@ -1,10 +1,10 @@
 header {
   background-image: url("../images/bg.png");
-  height: 750px;
+  min-height: 750px;
   width: 100%; }
 
-header ul li:after {
-  border-bottom: solid 1px gray; }
+header ul li:hover {
+  border-bottom: solid 2px gray; }
 
 header ul li {
   padding: 31px 19px 0 19px;
@@ -98,12 +98,13 @@ header .col-md-6 h4 {
 
 .third-part {
   background-color: #f6f6f6;
-  height: 693px;
+  min-height: 693px;
   width: 100%;
   margin-top: 125px; }
 
 .third-part h1 {
   margin-top: 140px;
+  margin-bottom: 70px;
   text-transform: uppercase;
   color: #6f6f6f; }
 
@@ -169,6 +170,9 @@ header .col-md-6 h4 {
 .load-more {
   margin-top: 30px; }
 
+.load-more a .btn .btn-default {
+  color: transparent; }
+
 .test h1 {
   margin-top: 126px;
   margin-bottom: 58px; }
@@ -185,16 +189,25 @@ header .col-md-6 h4 {
       padding-top: 77px;
       padding-bottom: 37px;
       padding-left: 111px; }
+      .container .testimonials .test .owl-item .test-text {
+        width: 70%;
+        margin-left: 21px;
+        text-align: left; }
 
 .icons {
   background-color: #f6f6f6;
   width: 100%;
   min-height: 300px; }
-  .icons h1 {
+  .icons h3 {
     margin-top: 0;
     margin-bottom: 0; }
-  .icons .icons-br a {
-    margin-top: 52px;
-    margin-bottom: 65px; }
+  .icons .icons-br .col-md-3 {
+    margin-top: 50px; }
+
+footer .container-fluid {
+  background: url("../images/footer.png") no-repeat;
+  background-size: cover;
+  width: 100%;
+  min-height: 787px; }
 
 /*# sourceMappingURL=style.css.map */
