@@ -180,12 +180,19 @@ float: right;
 .load-more{
   margin-top: 30px;
 }
+.test{
+  h1{
+    margin-top: 126px;
+    margin-bottom: 58px;
+  }
+}
 .container{
   .testimonials{
     padding-top: 80px;
     padding-bottom: 120px;
     .test{
-      margin-top: 55px;
+      margin: auto;
+
       max-width: 950px;
       border: solid 1px;
       .owl-item{
@@ -194,6 +201,21 @@ float: right;
         padding-bottom: 37px;
         padding-left: 111px;
       }
+    }
+  }
+}
+.icons{
+  background-color: #f6f6f6;
+  width: 100%;
+  min-height: 300px;
+  h1{
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  .icons-br {
+    a{
+      margin-top: 52px;
+      margin-bottom: 65px;
     }
   }
 }
